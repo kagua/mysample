@@ -11,14 +11,8 @@ var today = d.getFullYear()+"/"+("0"+(d.getMonth()+1)).slice(-2)+"/"+("0"+d.getD
 d.setTime(d.getTime()+365*24*60*60*1000);
 var limit = d.toGMTString();
 
-//var cnt = 1;
+var cnt = 1;
 var cookie = document.cookie + ";";
-
-
-
-
-
-
 
 if(navigator.cookieEnabled){
 	var cStart = cookie.indexOf("last_visited=");
